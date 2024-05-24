@@ -6,11 +6,30 @@
         <title>The name of your website</title> 
         <link rel="stylesheet" href="styles.css">
         <script type="text/javascript" src="script.js"></script>
-        <h1>Country Search for Travelers</h1>
+       
     </head>
     <body>
-        <label for="search-input"> Search a Country! </label><br>
-        <input type="text", id="search-input", name="search-input">
-        <input type="button" id = "search-button" value = "Search">
+         <h1>Country Search for Travelers</h1>
+        <div id = "container">
+            <div id = "search-container">
+                <label for="search-input"> Search a Country! </label><br>
+                <input type="text", id="search-input", name="search-input">
+                <input type="button" id = "search-button" value = "Search">
+            </div>
+            <div id = "output">
+                <div id = "name-and-flag">
+                    <h3 id = "country-name"></h3>
+                    <img id = "flag-sprite" src=""> 
+                </div>
+                <div id="country-stats">
+                    <div class = "info-rows">
+                    </div>
+                    <div id = "border-info" class = "info-rows">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
     </body>
 </html>
